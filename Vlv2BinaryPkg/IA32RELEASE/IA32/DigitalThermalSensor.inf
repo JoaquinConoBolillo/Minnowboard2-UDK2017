@@ -51,7 +51,7 @@
   SMM_DEPEX|DigitalThermalSensor.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x10B0
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1010
 
 
 [PcdEx.IA32]
@@ -71,12 +71,12 @@
 #  MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf
 #  Vlv2DeviceRefCodePkg/ValleyView2Soc/CPU/PowerManagement/SampleCode/Library/AslUpdate/Dxe/AslUpdateLib.inf
 #  Vlv2DeviceRefCodePkg/ValleyView2Soc/CPU/Dts/SampleCode/Library/DTSHookLib/Smm/DTSHookLib.inf
-#  Vlv2DeviceRefCodePkg/ValleyView2Soc/CPU/Dts/SampleCode/Library/SmmIo/SmmIo.inf
+#  Vlv2DeviceRefCodePkg/ValleyView2Soc/CPU/Dts/SampleCode/Library/PlatSmmIo/PlatSmmIo.inf
 #  Vlv2TbltDevicePkg/Library/CpuIA32Lib/CpuIA32Lib.inf
 #  Vlv2DeviceRefCodePkg/ValleyView2Soc/CPU/Dts/SampleCode/Library/Ksc/Smm/SmmKscLib.inf
 
 [Depex.IA32]
-#  (#  gEfiAcpiSupportProtocolGuid               AND gEfiSmmBaseProtocolGuid                    AND #  gEfiSmmIoTrapDispatch2ProtocolGuid        AND gEfiSmmSwDispatchProtocolGuid              AND gEfiGlobalNvsAreaProtocolGuid              AND gEfiMpServiceProtocolGuid                  AND gEfiSmmSxDispatchProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiSmmBase2ProtocolGuid) AND (gEfiSmmAccess2ProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid)
+#  (gEfiSmmBaseProtocolGuid                    AND gEfiSmmSwDispatchProtocolGuid              AND gEfiGlobalNvsAreaProtocolGuid              AND gEfiMpServiceProtocolGuid                  AND gEfiSmmSxDispatchProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiSmmBase2ProtocolGuid) AND (gEfiSmmAccess2ProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid)
 
 
 

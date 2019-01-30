@@ -38,13 +38,13 @@
 [Packages.X64]
 
 [Binaries.X64]
-  ACPI|Facs/Facs.acpi
-  ACPI|Madt/Madt30.acpi
   ASL|DSDT.aml
-  ACPI|Lpit/Lpit.acpi
   ACPI|Mcfg/Mcfg.acpi
-  ACPI|Facp/Facp.acpi
+  ACPI|Lpit/Lpit.acpi
+  ACPI|Madt/Madt30.acpi
   ACPI|Hpet/Hpet.acpi
+  ACPI|Facp/Facp.acpi
+  ACPI|Facs/Facs.acpi
 
 [PatchPcd.X64]
 

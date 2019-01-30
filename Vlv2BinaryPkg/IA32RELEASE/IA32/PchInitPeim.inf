@@ -47,7 +47,7 @@
 
 [PatchPcd.IA32]
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x2998
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x2780
 
 
 [PcdEx.IA32]

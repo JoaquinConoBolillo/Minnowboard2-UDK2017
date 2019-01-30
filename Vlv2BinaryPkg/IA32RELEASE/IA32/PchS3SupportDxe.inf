@@ -40,7 +40,7 @@
   DXE_DEPEX|PchS3SupportDxe.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x2EF0
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x3120
 
 
 [PcdEx.IA32]
@@ -70,6 +70,7 @@
 #  MdePkg/Library/UefiLib/UefiLib.inf
 #  SourceLevelDebugPkg/Library/PeCoffExtraActionLibDebug/PeCoffExtraActionLibDebug.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxDxeLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  Vlv2TbltDevicePkg/Library/IntelPchAcpiTimerLib/IntelPchAcpiTimerLib.inf
 #  Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster/Library/PchPlatformLib/PchPlatformLib.inf

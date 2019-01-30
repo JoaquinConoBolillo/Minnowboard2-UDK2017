@@ -33159,5 +33159,149 @@
     <None Include="MdeModulePkg\Bus\Pci\XhciDxe\XhciDxe.inf">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\PatchPcdValue.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\Pkcs7Sign.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\Rsa2048Sha256GenerateKeys.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\Rsa2048Sha256Sign.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\BPDG.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\Ecc.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\GenDepex.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Bin\Win32\LzmaF86Compress.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Bin\Win32\ImportTool.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Bin\Win32\BrotliCompress.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\unicode\genwincodecs.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\external.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\test.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\test-amd64.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\buildmsi.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\clean.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\clean-amd64.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\external-amd64.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\external-common.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\build.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.2\Tools\buildbot\build-amd64.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.10\srcprep.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AppPkg\Applications\Python\Python-2.7.10\libprep.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="launch.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Vlv2TbltDevicePkg\bld_vlv.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Vlv2TbltDevicePkg\bldX64.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="edksetup.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Vlv2TbltDevicePkg\Stitch\IFWIStitch.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Vlv2TbltDevicePkg\Build_IFWI.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="EdkCompatibilityPkg\Other\Maintained\Tools\Pccts\h\pcnames.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Edk2Setup.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DuetPkg\PostBuild.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DuetPkg\CreateBootDisk.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\get_vsvars.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\set_vsprefix_envs.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\toolsetup.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Source\C\VfrCompile\Pccts\h\pcnames.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Source\C\Makefiles\NmakeSubdirs.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Source\C\LzmaCompress\LzmaF86Compress.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Source\C\BrotliCompress\BrotliCompress.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Scripts\SetVisualStudio.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\Scripts\ShowEnvironment.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\build.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\TargetTool.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\Trim.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\UPT.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\GenFds.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BaseTools\BinWrappers\WindowsLike\GenPatchPcdTable.bat">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

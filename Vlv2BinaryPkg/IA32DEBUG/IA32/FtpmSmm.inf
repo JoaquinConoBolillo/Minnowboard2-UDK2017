@@ -36,16 +36,16 @@
   Vlv2DeviceRefCodePkg/Vlv2DeviceRefCodePkg.dec
 
 [Binaries.IA32]
-  BIN|Ftpm.aml
   PE32|FtpmSmm.efi
+  ASL|Ftpm.aml
   SMM_DEPEX|FtpmSmm.depex
   DISPOSABLE|FtpmSmm.pdb
 
 [PatchPcd.IA32]
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x36F4
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x3A28
 
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x36F8
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x3A20
 
 
 [PcdEx.IA32]

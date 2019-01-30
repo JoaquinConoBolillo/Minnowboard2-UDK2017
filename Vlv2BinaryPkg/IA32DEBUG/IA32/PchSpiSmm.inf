@@ -48,10 +48,10 @@
   DISPOSABLE|PchSpiSmm.pdb
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x52E8
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x5A00
 
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x52F0
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x5A08
 
 
 [PcdEx.IA32]
@@ -83,6 +83,7 @@
 #  MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf
 #  MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxSmmLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  MdePkg/Library/UefiLib/UefiLib.inf
 #  Vlv2TbltDevicePkg/Library/IntelPchAcpiTimerLib/IntelPchAcpiTimerLib.inf

@@ -41,10 +41,10 @@
   DISPOSABLE|PchS3SupportDxe.pdb
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x5858
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x6160
 
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0xf0000043|0x5860
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0xf0000043|0x6168
 
 
 [PcdEx.IA32]
@@ -78,6 +78,7 @@
 #  MdePkg/Library/UefiLib/UefiLib.inf
 #  SourceLevelDebugPkg/Library/PeCoffExtraActionLibDebug/PeCoffExtraActionLibDebug.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxDxeLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster/Library/PchPlatformLib/PchPlatformLib.inf
 #  MdePkg/Library/DxeServicesLib/DxeServicesLib.inf

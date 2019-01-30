@@ -38,9 +38,9 @@
 
 [PatchPcd.IA32]
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x00000043|0x408C
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x00000043|0x4488
 
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x4090
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x4480
 
 
 [PcdEx.IA32]

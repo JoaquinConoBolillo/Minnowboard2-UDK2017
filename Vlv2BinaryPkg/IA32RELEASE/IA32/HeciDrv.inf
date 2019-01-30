@@ -46,7 +46,7 @@
   DXE_DEPEX|HeciDrv.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1B20
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1B30
 
 
 [PcdEx.IA32]
@@ -76,6 +76,7 @@
 #  MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull.inf
 #  MdePkg/Library/UefiLib/UefiLib.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxDxeLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  Vlv2TbltDevicePkg/Library/IntelPchAcpiTimerLib/IntelPchAcpiTimerLib.inf
 #  Vlv2DeviceRefCodePkg/Txe/Library/SeCLib/SeCLib.inf

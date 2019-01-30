@@ -49,10 +49,10 @@
   DISPOSABLE|PchSpiRuntime.pdb
 
 [PatchPcd.X64]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0xAF30
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0xBE30
 
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0xAF38
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0xBE38
 
 
 [PcdEx.X64]
@@ -82,6 +82,7 @@
 #  MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf
 #  MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxDxeLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  Vlv2TbltDevicePkg/Library/IntelPchAcpiTimerLib/IntelPchAcpiTimerLib.inf
 #  MdePkg/Library/UefiLib/UefiLib.inf

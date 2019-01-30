@@ -47,7 +47,6 @@
 [Binaries.X64]
   PE32|PlatformCpuPolicy.efi
   DXE_DEPEX|PlatformCpuPolicy.depex
-  BIN|PlatformCpuPolicyOffset.bin
 
 [PatchPcd.X64]
 

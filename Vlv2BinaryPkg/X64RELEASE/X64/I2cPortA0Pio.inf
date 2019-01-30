@@ -36,7 +36,7 @@
   PE32|I2cPortA0Pio.efi
 
 [PatchPcd.X64]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1208
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1120
 
 
 [PcdEx.X64]

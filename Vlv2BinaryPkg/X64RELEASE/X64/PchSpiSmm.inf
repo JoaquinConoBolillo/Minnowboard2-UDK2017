@@ -48,7 +48,7 @@
   SMM_DEPEX|PchSpiSmm.depex
 
 [PatchPcd.X64]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x2700
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x2610
 
 
 [PcdEx.X64]
@@ -78,6 +78,7 @@
 #  MdePkg/Library/BasePciLibCf8/BasePciLibCf8.inf
 #  MdePkg/Library/UefiLib/UefiLib.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxSmmLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  DeviceCommonPkg/Override/PerformancePkg/Library/TscTimerLib/DxeTscTimerLib.inf
 #  MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf

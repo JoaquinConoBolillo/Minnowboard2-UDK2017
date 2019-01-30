@@ -45,7 +45,7 @@
   DXE_DEPEX|ActiveBios.depex
 
 [PatchPcd.X64]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x500
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x4A0
 
 
 [PcdEx.X64]

@@ -47,7 +47,7 @@
   PEI_DEPEX|PchSmbusArpDisabled.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0xA70
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0xAB0
 
 
 [PcdEx.IA32]

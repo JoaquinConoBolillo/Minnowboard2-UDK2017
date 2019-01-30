@@ -48,9 +48,9 @@
 
 [PatchPcd.IA32]
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x4AE8
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x51D8
 
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x4AF0
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x51D0
 
 
 [PcdEx.IA32]
@@ -84,6 +84,7 @@
 #  MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull.inf
 #  MdePkg/Library/UefiLib/UefiLib.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxDxeLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  Vlv2DeviceRefCodePkg/Txe/Library/SeCLib/SeCLib.inf
 #  MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib.inf

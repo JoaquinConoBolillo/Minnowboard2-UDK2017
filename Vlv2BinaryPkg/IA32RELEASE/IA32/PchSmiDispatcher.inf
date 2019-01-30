@@ -47,7 +47,7 @@
   SMM_DEPEX|PchSmiDispatcher.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x2628
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1C10
 
 
 [PcdEx.IA32]

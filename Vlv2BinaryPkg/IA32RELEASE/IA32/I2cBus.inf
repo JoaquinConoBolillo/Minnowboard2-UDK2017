@@ -36,7 +36,7 @@
   PE32|I2cBus.efi
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0xDE0
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0xD70
 
 
 [PcdEx.IA32]

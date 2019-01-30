@@ -39,12 +39,12 @@
 
 [Binaries.X64]
   ACPI|Facp/Facp.acpi
-  ACPI|Facs/Facs.acpi
-  ACPI|Mcfg/Mcfg.acpi
   ACPI|Lpit/Lpit.acpi
   ACPI|Hpet/Hpet.acpi
-  ACPI|Madt/Madt30.acpi
   ASL|DSDT.aml
+  ACPI|Madt/Madt30.acpi
+  ACPI|Facs/Facs.acpi
+  ACPI|Mcfg/Mcfg.acpi
 
 [PatchPcd.X64]
 

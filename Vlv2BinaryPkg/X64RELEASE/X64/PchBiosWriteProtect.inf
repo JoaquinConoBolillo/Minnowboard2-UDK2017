@@ -46,7 +46,7 @@
   DXE_DEPEX|PchBiosWriteProtect.depex
 
 [PatchPcd.X64]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x630
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x600
 
 
 [PcdEx.X64]

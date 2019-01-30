@@ -46,7 +46,7 @@
   PEI_DEPEX|PchUsb.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x490
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x470
 
 
 [PcdEx.IA32]

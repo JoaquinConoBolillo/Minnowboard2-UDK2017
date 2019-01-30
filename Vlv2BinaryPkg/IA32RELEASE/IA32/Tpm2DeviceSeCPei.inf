@@ -31,7 +31,7 @@
   PEI_DEPEX|Tpm2DeviceSeCPei.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1608
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x1A10
 
 
 [PcdEx.IA32]

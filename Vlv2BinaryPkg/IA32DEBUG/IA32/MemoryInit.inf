@@ -52,44 +52,44 @@
   DISPOSABLE|MemoryInit.pdb
 
 [PatchPcd.IA32]
-  gVlvRefCodePkgTokenSpaceGuid.PcdEnableMemoryDown|0x01|0xDCC2
+  gVlvRefCodePkgTokenSpaceGuid.PcdMemoryParameterPatchable|0x00|0x17AC0
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDramSpeed|0x01|0xDCC3
+  gVlvRefCodePkgTokenSpaceGuid.PcdEnableMemoryDown|0x01|0x17092
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDramType|0x01|0xDCE6
+  gVlvRefCodePkgTokenSpaceGuid.PcdDramSpeed|0x01|0x17094
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm0|0x01|0xDCE7
+  gVlvRefCodePkgTokenSpaceGuid.PcdDramType|0x01|0x17090
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDataWidth|0x01|0xDCEE
+  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm0|0x01|0x170A0
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDensity|0x02|0xDCEF
+  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm1|0x00|0x17AC2
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDimmBusWidth|0x03|0xE44F
+  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDataWidth|0x01|0x170A8
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTcl|0x0b|0xE4FA
+  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDensity|0x02|0x170A9
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTrpTrcd|0x0b|0xE4FB
+  gVlvRefCodePkgTokenSpaceGuid.PcdDimmBusWidth|0x03|0x17093
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTwr|0x0c|0xE516
+  gVlvRefCodePkgTokenSpaceGuid.PcdRankPerDimm|0x00|0x17AC1
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTwtr|0x06|0xE517
+  gVlvRefCodePkgTokenSpaceGuid.PcdTcl|0x0b|0x17091
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTrrd|0x06|0xE521
+  gVlvRefCodePkgTokenSpaceGuid.PcdTrpTrcd|0x0b|0x17097
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTrtp|0x06|0xE522
+  gVlvRefCodePkgTokenSpaceGuid.PcdTwr|0x0c|0x170A3
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTfaw|0x20|0xE523
+  gVlvRefCodePkgTokenSpaceGuid.PcdTwtr|0x06|0x170A2
+
+  gVlvRefCodePkgTokenSpaceGuid.PcdTrrd|0x06|0x17096
+
+  gVlvRefCodePkgTokenSpaceGuid.PcdTrtp|0x06|0x17095
+
+  gVlvRefCodePkgTokenSpaceGuid.PcdTfaw|0x20|0x170A1
 
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000046|0xE524
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000046|0x170A4
 
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0xE528
-
-  gVlvRefCodePkgTokenSpaceGuid.PcdMemoryParameterPatchable|0x00|0xE530
-
-  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm1|0x00|0xE531
-
-  gVlvRefCodePkgTokenSpaceGuid.PcdRankPerDimm|0x00|0xE532
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x17098
 
 
 [PcdEx.IA32]

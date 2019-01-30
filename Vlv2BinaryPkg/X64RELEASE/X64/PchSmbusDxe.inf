@@ -45,7 +45,7 @@
   DXE_DEPEX|PchSmbusDxe.depex
 
 [PatchPcd.X64]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x18A8
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x17C0
 
 
 [PcdEx.X64]

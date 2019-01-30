@@ -51,41 +51,41 @@
   PEI_DEPEX|MemoryInit.depex
 
 [PatchPcd.IA32]
-  gVlvRefCodePkgTokenSpaceGuid.PcdEnableMemoryDown|0x01|0x8A52
+  gVlvRefCodePkgTokenSpaceGuid.PcdMemoryParameterPatchable|0x00|0x168EC
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDramSpeed|0x01|0x8A53
+  gVlvRefCodePkgTokenSpaceGuid.PcdEnableMemoryDown|0x01|0x12472
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDramType|0x01|0x8A76
+  gVlvRefCodePkgTokenSpaceGuid.PcdDramSpeed|0x01|0x12474
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm0|0x01|0x8A77
+  gVlvRefCodePkgTokenSpaceGuid.PcdDramType|0x01|0x12470
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDataWidth|0x01|0x8A7E
+  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm0|0x01|0x12480
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDensity|0x02|0x8A7F
+  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm1|0x00|0x168EE
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdDimmBusWidth|0x03|0x91DF
+  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDataWidth|0x01|0x12484
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTcl|0x0b|0x928A
+  gVlvRefCodePkgTokenSpaceGuid.PcdDimmDensity|0x02|0x12485
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTrpTrcd|0x0b|0x928B
+  gVlvRefCodePkgTokenSpaceGuid.PcdDimmBusWidth|0x03|0x12473
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTwr|0x0c|0x92A6
+  gVlvRefCodePkgTokenSpaceGuid.PcdRankPerDimm|0x00|0x168ED
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTwtr|0x06|0x92A7
+  gVlvRefCodePkgTokenSpaceGuid.PcdTcl|0x0b|0x12471
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTrrd|0x06|0x92B1
+  gVlvRefCodePkgTokenSpaceGuid.PcdTrpTrcd|0x0b|0x12477
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTrtp|0x06|0x92B2
+  gVlvRefCodePkgTokenSpaceGuid.PcdTwr|0x0c|0x12483
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdTfaw|0x20|0x92B3
+  gVlvRefCodePkgTokenSpaceGuid.PcdTwtr|0x06|0x12482
 
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x92B8
+  gVlvRefCodePkgTokenSpaceGuid.PcdTrrd|0x06|0x12476
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdMemoryParameterPatchable|0x00|0xC49C
+  gVlvRefCodePkgTokenSpaceGuid.PcdTrtp|0x06|0x12475
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdEnableDimm1|0x00|0xC49D
+  gVlvRefCodePkgTokenSpaceGuid.PcdTfaw|0x20|0x12481
 
-  gVlvRefCodePkgTokenSpaceGuid.PcdRankPerDimm|0x00|0xC49E
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x12478
 
 
 [PcdEx.IA32]

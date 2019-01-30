@@ -54,7 +54,7 @@
 
 [PatchPcd.X64]
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x4540
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x4220
 
 
 [PcdEx.X64]
@@ -84,6 +84,7 @@
 #  MdePkg/Library/BasePciLibCf8/BasePciLibCf8.inf
 #  MdePkg/Library/UefiLib/UefiLib.inf
 #  MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxSmmLib.inf
+#  MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf
 #  Vlv2TbltDevicePkg/Library/SmbusLib/SmbusLib.inf
 #  DeviceCommonPkg/Override/PerformancePkg/Library/TscTimerLib/DxeTscTimerLib.inf
 #  MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf

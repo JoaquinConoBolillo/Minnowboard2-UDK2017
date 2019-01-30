@@ -38,13 +38,13 @@
 [Packages.IA32]
 
 [Binaries.IA32]
-  ASL|DSDT.aml
-  ACPI|Hpet/Hpet.acpi
-  ACPI|Facp/Facp.acpi
-  ACPI|Madt/Madt30.acpi
-  ACPI|Mcfg/Mcfg.acpi
-  ACPI|Facs/Facs.acpi
   ACPI|Lpit/Lpit.acpi
+  ACPI|Facs/Facs.acpi
+  ACPI|Madt/Madt30.acpi
+  ACPI|Hpet/Hpet.acpi
+  ASL|DSDT.aml
+  ACPI|Facp/Facp.acpi
+  ACPI|Mcfg/Mcfg.acpi
 
 [PatchPcd.IA32]
 

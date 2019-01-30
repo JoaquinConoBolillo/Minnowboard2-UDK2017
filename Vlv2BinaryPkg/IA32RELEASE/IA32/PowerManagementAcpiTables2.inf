@@ -42,13 +42,13 @@
 [Packages.IA32]
 
 [Binaries.IA32]
+  ASL|Ssdt/ApIst.aml
   ASL|Ssdt/Cpu0Cst.aml
-  ASL|Ssdt/Cpu0Tst.aml
-  ASL|Ssdt/CpuPm.aml
   ASL|Ssdt/ApTst.aml
   ASL|Ssdt/ApCst.aml
+  ASL|Ssdt/Cpu0Tst.aml
+  ASL|Ssdt/CpuPm.aml
   ASL|Ssdt/Cpu0Ist.aml
-  ASL|Ssdt/ApIst.aml
 
 [PatchPcd.IA32]
 

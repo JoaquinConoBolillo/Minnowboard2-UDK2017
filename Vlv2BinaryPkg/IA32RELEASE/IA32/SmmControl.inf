@@ -45,7 +45,7 @@
   DXE_DEPEX|SmmControl.depex
 
 [PatchPcd.IA32]
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x830
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x810
 
 
 [PcdEx.IA32]

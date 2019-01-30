@@ -37,15 +37,15 @@
 
 [Binaries.X64]
   PE32|FtpmSmm.efi
-  BIN|Ftpm.aml
+  ASL|Ftpm.aml
   SMM_DEPEX|FtpmSmm.depex
   DISPOSABLE|FtpmSmm.pdb
 
 [PatchPcd.X64]
   ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x7EF4
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x803805c6|0x8428
 
-  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x7EF8
+  gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x8420
 
 
 [PcdEx.X64]

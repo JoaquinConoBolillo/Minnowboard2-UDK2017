@@ -38,7 +38,7 @@ COMPONENT_TYPE       = Microcode
 FFS_EXT              = .ffs
 
 [sources.common]
-M0130679906.inc
+M0F30679909.inc
 M0130673321.inc
 M0130678806.inc
 M023067221D.inc

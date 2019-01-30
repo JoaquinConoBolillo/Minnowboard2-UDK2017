@@ -40,10 +40,10 @@
   DISPOSABLE|I2cMmioDeviceDxe.pdb
 
 [PatchPcd.X64]
-  ## CONSUMES
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x00000043|0x64F4
-
   gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x00000000e0000000|0x6C10
+
+  ## CONSUMES
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x00000043|0x6C18
 
 
 [PcdEx.X64]
